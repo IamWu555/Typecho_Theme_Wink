@@ -33,7 +33,11 @@
           <a href="<?php $this->permalink() ?>">
            <div class="article-view" >
             <div class="bg">
-              <img src="<?php  $this->fields->imgurl(); ?>">
+              <?php if (array_key_exists('imgurl',unserialize($this->___fields()))): ?>
+                <img src="<?php  $this->fields->imgurl(); ?>";>
+              <?php else : ?>
+                <img src="https://pic.superbed.cn/item/5d5f9dc4451253d178226678.jpg">
+              <?php endif; ?>
             </div>
             <div class="info">
               <h2><?php $this->title() ?></h2>
