@@ -244,28 +244,11 @@ body {
 }
 
 .post-content p a {
-  color: red;
+  color: #467B96;
 }
 
 strong {
-  color: #494ca2;
-}
-
-code:not([class*="language-"]) {
-  padding: 2px 8px;
-  margin: 0 4px;
-  word-wrap: break-word;
-  border-radius: 3px;
-  font-size: 14px;
-}
-
-pre {
-  padding: 1em;
-  margin: .5em 0;
-  overflow: auto;
-  border-radius: 15px;
-  color: #555;
-  background: #eee;
+  color: #467B96;
 }
 
 hr {
@@ -342,11 +325,11 @@ hr {
 }
 
 .content p a {
-  color: red;
+  color: #467B96;
 }
 
 strong {
-  color: #494ca2;
+  color: #467B96;
 }
 
 hr {
