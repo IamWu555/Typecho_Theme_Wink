@@ -40,7 +40,7 @@
               <?php endif; ?>
             </div>
             <div class="info">
-              <h2><?php $this->title() ?></h2>
+              <h2><?php $this->sticky(); $this->title() ?></h2>
               <?php if ($this->options->enableOneRow == 0): ?><?php $this->excerpt(50);?><?php endif; ?>
               <p>
                 <span class="date"><?php $this->date('y-m-d'); ?></span>
