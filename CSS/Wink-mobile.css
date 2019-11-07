@@ -154,9 +154,9 @@ body {
 
 .post-header-info {
   width: 100%;
-  height: 50px;
+  height: auto;
   align-self: flex-end;
-  margin: 30px 10px;
+  margin: 0  10px;
 }
 
 .post-content, .post-footer {
